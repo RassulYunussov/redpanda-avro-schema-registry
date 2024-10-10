@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "namespace": "org.example.avro",
+  "name": "org.example.avro.Product",
+  "fields": [
+    {"name": "product_id", "type": "int"},
+    {"name": "product_name", "type": "string"},
+    {"name": "product_price", "type": "double"}
+  ]
+}
